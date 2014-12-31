@@ -1,0 +1,89 @@
+/* Large desktops and laptops */ /* my desktop */
+@media (min-width: 1200px) {
+
+h1.comming_soon_rotate{font-family:"Yellowtail";font-weight:700;color:#c81d11;font-size:60px;}
+ .sign_up_box h2 {font-size: 35px;}
+ .why_connect_us_h2 {font-size: 35px;}
+ 
+.navbar-brand.logo{margin-left: -3px;}
+nav.custom_nav_style div.style_nav ul.navbar-nav li{margin-right: 3px;}
+}
+
+
+
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+ h1.comming_soon_rotate{font-family:"Yellowtail";font-weight:700;color:#c81d11;font-size:50px;}
+ .sign_up_box h2 {font-size: 30px;}
+ .why_connect_us_h2 {font-size: 30px;}
+ .navbar-brand.logo{margin-left: -3px;}
+ nav.custom_nav_style div.style_nav ul.navbar-nav li{margin-right: 3px;}
+}
+
+
+
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+ h1.comming_soon_rotate{font-family:"Yellowtail";font-weight:700;color:#c81d11;font-size:40px;}
+ .sign_up_box h2 {font-size: 23px;}
+ .why_connect_us_h2 {font-size: 23px;}
+ .custom_nav_css{padding-left: 75px;}
+ .navbar-text.navbar-right.call_us_h2 {margin-right: 68px;}
+  .navbar-brand.logo{margin-left: -3px;}
+  nav.custom_nav_style div.style_nav ul.navbar-nav li{margin-right: 3px;}
+}
+
+
+
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+ 
+h1.comming_soon_rotate {font-size: 37px;font-family:"Yellowtail";font-weight:700;color:#c81d11;}
+.custom_nav_style {
+  position: relative;
+  z-index: 99999;
+}
+  .navbar-brand.logo{margin-left: -3px;}
+  .navbar-brand.logo img {
+  height: auto;
+margin-left: -9px;
+margin-top: -29px;
+}
+nav.custom_nav_style div.style_nav ul.navbar-nav li {
+  margin-bottom: 3px;margin-right:0;
+}
+.navbar-brand.logo > h2 {
+  color: #000;
+  margin-top: 0;
+  padding-left: 7px;
+  padding-top: 34px;
+}
+}
+
+
+
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+
+ h1.comming_soon_rotate {
+  font-size: 35px;font-family:"Yellowtail";font-weight:700;color:#c81d11;
+}
+  .navbar-brand.logo{margin-left: -2px;
+margin-top: 2px;}
+.navbar-brand.logo > h2 {
+  color: #000;
+  margin-top: 0;
+  padding-left: 7px;
+  padding-top: 34px;
+}
+  nav.custom_nav_style div.style_nav ul.navbar-nav li {
+  margin-bottom: 3px;margin-right:0;
+}
+}
